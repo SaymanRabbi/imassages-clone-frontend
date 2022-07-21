@@ -1,6 +1,6 @@
 .sidebar{
     flex: 0.35;
-    height: 100vh;
+    height:100vh;
     display: flex;
     flex-direction: column;
     background-color: #f5f5f5;
@@ -31,3 +31,13 @@
     background: transparent;
     outline-width: 0;
     }
+.sidebar_chats{
+    overflow: scroll;
+}
+.sidebar_chats::-webkit-scrollbar{
+    display: none;
+}
+.sidebar_chats{
+    -ms-overflow-style:none;
+    /* scrollbar-width:none */
+}
