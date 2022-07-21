@@ -8,8 +8,8 @@ const Sidebar = () => {
     return (
         <div className='sidebar'>
             <div className='sidebar__header'>
-                <Avatar />
-                <div className="Sidebar_input">
+                <Avatar  className='sidebar_avatar'/>
+                <div className="sidebar_input">
                     <SearchIcon />
                     <input type="text" placeholder='Search' />
                 </div>
