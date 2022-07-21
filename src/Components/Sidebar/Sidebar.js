@@ -3,6 +3,7 @@ import React from 'react';
 import './Sidebar.css';
 import SearchIcon from '@mui/icons-material/Search';
 import RateReviewIcon from '@mui/icons-material/RateReview';
+import SidebarChat from '../SidebarChat/SidebarChat';
 
 const Sidebar = () => {
     return (
@@ -19,7 +20,7 @@ const Sidebar = () => {
                </IconButton>
             </div>
             <div className="sidebar_chats">
-
+                <SidebarChat/>
             </div>
             
         </div>
